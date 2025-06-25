@@ -198,3 +198,4 @@ cython_debug/
 # ignore txt and csv files in notebook folder
 notebook/*.txt
 notebook/*.csv
+results/
