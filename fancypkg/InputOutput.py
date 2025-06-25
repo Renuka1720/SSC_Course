@@ -24,6 +24,8 @@ def read_dataframe(path):
 
     if suffix == ".csv":
         return pd.read_csv(path)
+    elif suffix == ".t":
+        return pd.read_csv(path, sep=r"\s+")
 
     raise ValueError(f"Unsupported DataFrame file type: {suffix}")
 
