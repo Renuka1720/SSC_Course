@@ -1,4 +1,4 @@
-import transform as trf
+import fancypkg.transform as trf
 import pandas as pd
 
 if __name__ == "__main__":
