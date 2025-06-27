@@ -11,6 +11,6 @@ snakeviz
 sphinx
 myst-parser
 sphinxcontrib-napoleon
-#pytest
+pytest
 pytest-sugar
 pytest-cov
