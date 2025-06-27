@@ -38,3 +38,6 @@ jobs:
     - name: Run pre-commit
       run: |
         pre-commit run --all
+    - name: Run pytest
+      run: |
+        pytest --sxvv
